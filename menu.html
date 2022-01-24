@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>予定入力</title>
+</head>
+<body>
+    <form method="POST" action="index.py">
+        <label for="time">日時</label>
+        <div>
+            <input type="date" name="schedule_date">
+            <input type="time" name="schedule_tim se">
+        </div>
+         <div>
+            <label for="pla">場所</label>
+         </div>
+        <div>
+            <textarea id="place"></textarea>
+        </div>
+        <div>
+            <label for="action">予定内容</label>
+        </div>
+            <textarea id="act"></textarea>
+        <div>
+            <button type= "submit"> 予定登録</button>
+        </div>
+    </form>
+</body>
+</html>

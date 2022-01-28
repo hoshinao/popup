@@ -1346,23 +1346,28 @@
       <Position>4</Position>
       <DataType>str|0s</DataType>
     </column>
-    <column id="495" parent="171" name="type">
+    <column id="495" parent="170" name="push">
+      <Position>5</Position>
+      <DataType>str|0s</DataType>
+      <DefaultExpression>未</DefaultExpression>
+    </column>
+    <column id="496" parent="171" name="type">
       <Position>1</Position>
       <DataType>text|0s</DataType>
     </column>
-    <column id="496" parent="171" name="name">
+    <column id="497" parent="171" name="name">
       <Position>2</Position>
       <DataType>text|0s</DataType>
     </column>
-    <column id="497" parent="171" name="tbl_name">
+    <column id="498" parent="171" name="tbl_name">
       <Position>3</Position>
       <DataType>text|0s</DataType>
     </column>
-    <column id="498" parent="171" name="rootpage">
+    <column id="499" parent="171" name="rootpage">
       <Position>4</Position>
       <DataType>int|0s</DataType>
     </column>
-    <column id="499" parent="171" name="sql">
+    <column id="500" parent="171" name="sql">
       <Position>5</Position>
       <DataType>text|0s</DataType>
     </column>

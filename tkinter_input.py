@@ -2,6 +2,8 @@ import tkinter as tk
 from tkinter import ttk
 from db import schedule_check
 
+
+
 if __name__ == "__main__":
     window = tk.Tk()
     window.title("Rainbow TextBox")
@@ -54,8 +56,12 @@ if __name__ == "__main__":
 
         schedule_check(tval_1, tval_2, tval_3, tval_4)
 
-
     button = tk.Button(text="入力テキスト値の取得", command=getValue)
     canvas.create_window(200, 50, window=button)
+
+    def close_window():
+        window.destroy()
+    button = tk.Button(text="Quit",command=close_window)
+    canvas.create_window(300,50,window=button)
 
     window.mainloop()

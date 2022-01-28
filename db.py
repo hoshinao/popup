@@ -13,7 +13,6 @@ conn = sqlite3.connect(dbname)
 
 cur = conn.cursor()
 
-
 # テーブル作成
 # cur.execute("CREATE TABLE schedules(schedule_date date,schedule_time time,schedule_action STRING)")
 
@@ -27,5 +26,3 @@ def schedule_check(tval_1, tval_2, tval_3, tval_4):
     data_set = n1, n2, n3, n4
     cur.execute(sql, data_set)
     conn.commit()
-
-
